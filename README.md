@@ -1,4 +1,4 @@
-# Scripts
+# Tool
 瞎写的一点小脚本小工具什么的
 
 ## JsonpProxy
