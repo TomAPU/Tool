@@ -6,3 +6,7 @@
 能够匹配简单的JSONP以及通过检查关键字进行简单粗暴的匹配
 ## beef-python
 由Python封装的beef API,并用python写了一个自动化攻击的demo
+## custom_script
+放置在/usr/share/beef-xss/modules/browser/hooked_domain/custom_script/的beef模块。
+它可以通过eval的形式在受害者浏览器上执行自定义脚本，由于使用了base64编码所以空行或者单双引号不影响攻击，最后会把执行结果返回回来。
+之所以要开发这个小玩意是因为我在尝试攻击某内嵌IE浏览器应用的时候发现调不开调试工具，于是写这个beef模块配合中间人攻击进行“远程调试”
