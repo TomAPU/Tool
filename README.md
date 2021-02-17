@@ -12,3 +12,5 @@
 之所以要开发这个小玩意是因为我在尝试攻击某内嵌IE浏览器应用的时候发现调不开调试工具，于是写这个beef模块配合中间人攻击进行“远程调试”
 ## thinkphp5.0.24-popchain
 ThinkPHP5.0.24 反序列化POP链，不适用于Windows
+## addwhitelist
+点击BypassUAC.exe,执行BAT，调用WMI把整个C盘添加到Windows Defender的病毒扫描白名单中
