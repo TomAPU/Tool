@@ -14,3 +14,5 @@
 ThinkPHP5.0.24 反序列化POP链，不适用于Windows
 ## addwhitelist
 点击BypassUAC.exe,执行BAT，调用WMI把整个C盘添加到Windows Defender的病毒扫描白名单中
+## removegoogleads
+花了两分钟随手写的一个去掉Google搜索结果广告的脚本
